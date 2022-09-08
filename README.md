@@ -1,5 +1,5 @@
 # bezier_learn
-This package containes classes of complex shapes defined by multiple control points of Bezier curves
+This package containes classes of complex shapes defined by multiple control points of _Bezier_ curves
 
 ## Dependance
 
@@ -11,7 +11,7 @@ This package containes classes of complex shapes defined by multiple control poi
 
 ## Example
 
-See `example\/` for examples that use classes of this package to plot complex shapes.
+See `example\/` for usage of classes defined in this package to plot complex shapes.
 ```python
 from bezier_learn import PatchClamp
 

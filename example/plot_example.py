@@ -23,7 +23,6 @@ for ref in refs:
 	pclamp = PatchClamp(control_points = cell_control_points, ref_point = ref)
 	beziers = pclamp.bezier_curve(np.linspace(0,1,50))
 	for bezier in beziers:
-		print(*bezier.T)
 		plt.plot(*bezier.T, 'r', lw=0.8)
 	i += 1
 
